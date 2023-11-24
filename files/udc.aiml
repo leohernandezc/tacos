@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Lo siento, no entendí su pedido. ¿Te gustaría conocer nuestro menú o hacer un pedido?</template>
+  </category>
+</aiml>
+
+
+
+
+
+
+

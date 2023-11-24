@@ -1,0 +1,52 @@
+
+<aiml version="1.0" encoding="UTF-8">
+  <category>
+    <pattern>QUIERO TACOS</pattern>
+    <template>
+      <random>
+        <li>¡Por supuesto! En nuestro menú tenemos variedad de tacos.</li>
+        <li>Los tacos son nuestra especialidad.</li>
+      </random>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>* QUIERO TACOS</pattern>
+    <template>
+      <srai>QUIERO TACOS</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>DE QUE TIENEN</pattern>
+    <template>Tenemos tacos de pastor, suadero, cabeza y lengua. ¿De qué le gustaría ordenar?</template>
+  </category>
+  
+  <category>
+    <pattern>QUIERO * PASTOR</pattern>
+    <template>¡Excelente elección! ¿Cuántos le gustaría ordenar?</template>
+  </category>
+  
+  <category>
+    <pattern>QUIERO * SUADERO</pattern>
+    <template>Los tacos de suadero son muy ricos. ¿Cuántos le gustaría pedir?</template>
+  </category>
+  
+  <category>
+    <pattern>QUIERO * CABEZA</pattern>
+    <template>Los tacos de cabeza son una buena elección. ¿Cuántos le gustaría pedir?</template>
+  </category>
+  
+  <category>
+    <pattern>QUIERO * LENGUA</pattern>
+    <template>¿Cuántos le gustaría pedir?</template>
+  </category>
+  
+  <category>
+    <pattern>LOS * ESTUVIERON MUY RICOS</pattern>
+    <template>¡Nos alegra que le hayan gustado! Nos esforzamos por ofrecer lo mejor. ¿Algo más en lo que pueda ayudarle?</template>
+  </category>
+
+</aiml>
+
+
